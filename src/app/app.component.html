@@ -1,8 +1,17 @@
+<header>
+    <img src="/assets/images/logo.png" alt="logo">
+    Playground
+</header>
+
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/playground">Playground</a>
+</nav>
+
 <main>
-    <header class="brand-name">
-        <img src="assets/images/logo.png" alt="logo">
-        <section class="content">
-            <app-home></app-home>
-        </section>
-    </header>
+    <router-outlet></router-outlet>
 </main>
+
+<footer>
+    <p>&copy; 2026 Playground</p>
+</footer>
