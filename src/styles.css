@@ -10,8 +10,28 @@ header {
     font-size: 1.25em;
 }
 
+header img {
+    width: 25%;
+    height: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: skyblue;
+    color: navy;
+}
+
+nav a {
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 main {
     background-color: lightgray;
+    margin: 10px;
 }
 
 footer {
